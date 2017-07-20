@@ -1,0 +1,23 @@
+{
+    "name": "nk/test-car",
+    "description": "this is a demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qianping",
+            "email": "nksurvive@126.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.0.0"
+	    },
+	    "autoload": {
+		"psr-4": {
+		    "Ford\\Escape\\": "src/Ford/Escape",
+		    "Ford\\Fusion\\": "src/Ford/Fusion",
+		    "Ford\\Focus\\": "src/Ford/Focus",
+		    "Ford\\Fiesta\\": "src/Ford/Fiesta"
+		}
+	    }
+}
