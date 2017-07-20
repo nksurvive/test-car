@@ -1,6 +1,6 @@
 <?php
 
-namespace Ford\Escape;
+namespace Ford\Focus;
 
 class Focus2016
 {
